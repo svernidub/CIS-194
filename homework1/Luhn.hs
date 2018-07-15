@@ -2,6 +2,7 @@ module Luhn (
     validate
 ) where
 
+
 toDigits :: Integer -> [Integer]
 toDigits n | n <= 0    = []
            | otherwise = toDigits numHead ++ [digit]
